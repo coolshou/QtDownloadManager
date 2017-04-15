@@ -1,0 +1,3 @@
+[submodule "qtftp"]
+	path = qtftp
+	url = https://github.com/qt/qtftp.git
