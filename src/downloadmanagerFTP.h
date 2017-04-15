@@ -3,7 +3,7 @@
 
 #include <QtGlobal>
 
-#if QT_VERSION < 0x050000
+//#if QT_VERSION < 0x050000
 
 #include <QObject>
 #include <QNetworkAccessManager>
@@ -13,6 +13,7 @@
 #include <QTimer>
 #include <QFtp>
 
+#include "qftp.h"
 
 class DownloadManagerFTP : public QObject
 {
@@ -58,6 +59,6 @@ private:
     QTimer _Timer;
 };
 
-#endif // QT_VERSION < 0x050000
+//#endif // QT_VERSION < 0x050000
 
 #endif // DOWNLOADMANAGERFTP_H

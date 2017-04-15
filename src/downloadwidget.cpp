@@ -1,11 +1,12 @@
 #include "downloadwidget.h"
-#include "ui_form.h"
+
 #include <QProgressBar>
 #include <QPushButton>
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QStandardItemModel>
 
+#include "ui_form.h"
 
 DownloadWidget::DownloadWidget(QWidget *parent) :
     QWidget(parent),
